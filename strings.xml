@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Q-Magnetic</string>
+
+    <string name="lokasi">husein.com.sharedpreferences.lokasi</string>
+    <string name="lintang">husein.com.sharedpreferences.lintang</string>
+    <string name="bujur">husein.com.sharedpreferences.bujur</string>
+    <string name="tinggi">husein.com.sharedpreferences.tinggi</string>
+    <string name="deklinasi_magnetic">husein.com.sharedpreferences.deklinasi_magnetic</string>
+
+
+    <string name="title_activity_main">Q-Magnetic</string>
+    <string name="action_profil">Profil</string>
+    <string name="action_bantuan">Bantuan</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_bantuan">BantuanActivity</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Bantuan -->
+    <string name="satu">Buka aplikasi Q-Magnetic kemudian tungggu proses GPS Android mencarian data titik koordinat tempat.</string>
+    <string name="dua">Setelah data koordinat telah ditemukan, kemudian tekan tombol “LANJUTKAN” untuk menuju tampilan selanjutnya.</string>
+    <string name="tiga">Usap layar kearah kiri atau sentuh layar pada bagian tab “WATERPASS” untuk menuju pada tampilan waterpass.</string>
+    <string name="empat">Letakkan smartphone pada bidang yang datar dan pastikan lingkaran warna orange berada di posisi tengah.</string>
+    <string name="lima">Selanjutnya usap layar kearah kiri lagi atau sentuh layar pada bagian tab “KIBLAT” untuk menuju tampilan kompas kiblat.</string>
+
+</resources>

@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.husaint2skripsi.lenovo.q_magnetic.MainActivity">
+    <item
+        android:id="@+id/menu_bantuan"
+        android:orderInCategory="100"
+        android:title="@string/action_bantuan" />
+    <item
+        android:id="@+id/menu_profil"
+        android:orderInCategory="101"
+        android:title="@string/action_profil"
+        app:showAsAction="never" />
+</menu>

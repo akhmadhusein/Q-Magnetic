@@ -1,0 +1,139 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.husaint2skripsi.lenovo.q_magnetic.KiblatFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/color2"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Azimut Kiblat "
+                            android:layout_margin="5dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Deklinasi Magnetik "
+                            android:layout_margin="5dp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/txt_azmkiblat_k"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=": 123456678"
+                            android:layout_margin="5dp"/>
+                        <TextView
+                            android:id="@+id/txt_dekmag_k"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=": 123455678"
+                            android:layout_margin="5dp"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:background="@color/color2"
+                    android:layout_weight="3"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/perhatian"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_margin="5dp"
+                                android:textColor="@color/colorPrimary"
+                                android:textStyle="bold"
+                                android:layout_height="wrap_content"
+                                android:text="PERHATIAN!!!"
+                                />
+                        </LinearLayout>
+                        <TextView
+                            android:layout_width="300dp"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/color1"
+                            android:fontFamily="monospace"
+                            android:layout_margin="10dp"
+                            android:textAlignment="center"
+                            android:text="Mohon maaf ponsel anda tidak dilengkapi Sensor Magnetic Orientation"
+                            />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/imagekompas"
+                        android:layout_gravity="center"
+                        android:layout_width="330dp"
+                        android:layout_height="330dp"
+                        android:visibility="visible"
+                        app:srcCompat="@drawable/kompas" />
+
+                    <ImageView
+                        android:id="@+id/imagekiblat"
+                        android:layout_gravity="center"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:visibility="visible"
+                        app:srcCompat="@drawable/arah" />
+                </FrameLayout>
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+</LinearLayout>
